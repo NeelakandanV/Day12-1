@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="seat_booking">
+        <div class="Title">
+            <h2>LEO MUSIC CONCERT</h2>
+            <p>Number of seats available : 150</p>
+        </div>
+        <div class="content">
+            <div class="logo">
+                <img src="Music concert.jpg">
+            </div>
+        
+            <div class="Details">
+                <form action="" target="_self">
+                    <label>Name :</label>
+                    <input type="text" placeholder="Enter your name"  required ><br>
+                    <label>Email :</label>
+                    <input type="email" placeholder="Enter your email" required><br>
+                    <label>Phone :</label>
+                    <input type="number" placeholder="Enter your mobile number"  required><br>
+                    <label>Seat type :</label><br>
+                    <input type="radio" name="Seat type">
+                    <label>Posh Rs.150/-</label><br>
+                    <input type="radio" name="Seat type">
+                    <label>Non AC Box Rs.250/-</label><br>
+                    <input type="radio" name="Seat type">
+                    <label>AC Box Rs.400/-</label><br>
+                    <label>Number of seats :</label>
+                    <select required>
+                        <option value="">Select seats</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br>
+                    <label>Attendee names :</label>
+                    <textarea placeholder="Attendee names" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                    <button>Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
